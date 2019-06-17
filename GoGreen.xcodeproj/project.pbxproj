@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A519FA4C22B7F114008443A0 /* qr-code-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A519FA4B22B7F113008443A0 /* qr-code-2.png */; };
+		A553D50F22B7D0570048D5AA /* WorkerDashDoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A553D50E22B7D0570048D5AA /* WorkerDashDoardViewController.swift */; };
 		A5D5FD3E22B79A0600A2051C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5FD3D22B79A0600A2051C /* AppDelegate.swift */; };
 		A5D5FD4022B79A0600A2051C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5FD3F22B79A0600A2051C /* ViewController.swift */; };
 		A5D5FD4322B79A0600A2051C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4122B79A0600A2051C /* Main.storyboard */; };
 		A5D5FD4522B79A0800A2051C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4422B79A0800A2051C /* Assets.xcassets */; };
 		A5D5FD4822B79A0800A2051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4622B79A0800A2051C /* LaunchScreen.storyboard */; };
+		A5D5FD5022B79CC800A2051C /* garbage.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4F22B79CC700A2051C /* garbage.png */; };
+		A5D5FD5222B7B1D000A2051C /* collection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD5122B7B1CB00A2051C /* collection.jpg */; };
+		DA3624D477AADD476CB64151 /* Pods_GoGreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D65A49EB93340A198B814CB /* Pods_GoGreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D65A49EB93340A198B814CB /* Pods_GoGreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9390D1D96B8DA8EB17FEB22B /* Pods-GoGreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen.release.xcconfig"; sourceTree = "<group>"; };
+		A519FA4B22B7F113008443A0 /* qr-code-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-code-2.png"; sourceTree = "<group>"; };
+		A553D50E22B7D0570048D5AA /* WorkerDashDoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkerDashDoardViewController.swift; sourceTree = "<group>"; };
 		A5D5FD3A22B79A0500A2051C /* GoGreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoGreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D5FD3D22B79A0600A2051C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5D5FD3F22B79A0600A2051C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		A5D5FD4422B79A0800A2051C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D5FD4722B79A0800A2051C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5D5FD4922B79A0800A2051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D5FD4F22B79CC700A2051C /* garbage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garbage.png; sourceTree = "<group>"; };
+		A5D5FD5122B7B1CB00A2051C /* collection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collection.jpg; sourceTree = "<group>"; };
+		CC340E4D1B00B7E81DEE4710 /* Pods-GoGreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3624D477AADD476CB64151 /* Pods_GoGreen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				A5D5FD3C22B79A0500A2051C /* GoGreen */,
 				A5D5FD3B22B79A0500A2051C /* Products */,
+				CB2B5CF0373956AAC777DD4E /* Pods */,
+				FA6FE8BC45D49E366CF36B74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +71,33 @@
 			children = (
 				A5D5FD3D22B79A0600A2051C /* AppDelegate.swift */,
 				A5D5FD3F22B79A0600A2051C /* ViewController.swift */,
+				A553D50E22B7D0570048D5AA /* WorkerDashDoardViewController.swift */,
 				A5D5FD4122B79A0600A2051C /* Main.storyboard */,
 				A5D5FD4422B79A0800A2051C /* Assets.xcassets */,
+				A5D5FD4F22B79CC700A2051C /* garbage.png */,
+				A5D5FD5122B7B1CB00A2051C /* collection.jpg */,
+				A519FA4B22B7F113008443A0 /* qr-code-2.png */,
 				A5D5FD4622B79A0800A2051C /* LaunchScreen.storyboard */,
 				A5D5FD4922B79A0800A2051C /* Info.plist */,
 			);
 			path = GoGreen;
+			sourceTree = "<group>";
+		};
+		CB2B5CF0373956AAC777DD4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC340E4D1B00B7E81DEE4710 /* Pods-GoGreen.debug.xcconfig */,
+				9390D1D96B8DA8EB17FEB22B /* Pods-GoGreen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA6FE8BC45D49E366CF36B74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D65A49EB93340A198B814CB /* Pods_GoGreen.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5D5FD4C22B79A0800A2051C /* Build configuration list for PBXNativeTarget "GoGreen" */;
 			buildPhases = (
+				6BB1B9D7958F72F51B9AE041 /* [CP] Check Pods Manifest.lock */,
 				A5D5FD3622B79A0500A2051C /* Sources */,
 				A5D5FD3722B79A0500A2051C /* Frameworks */,
 				A5D5FD3822B79A0500A2051C /* Resources */,
+				F6241DC364008819E25E12B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,13 +160,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D5FD5222B7B1D000A2051C /* collection.jpg in Resources */,
 				A5D5FD4822B79A0800A2051C /* LaunchScreen.storyboard in Resources */,
+				A519FA4C22B7F114008443A0 /* qr-code-2.png in Resources */,
 				A5D5FD4522B79A0800A2051C /* Assets.xcassets in Resources */,
 				A5D5FD4322B79A0600A2051C /* Main.storyboard in Resources */,
+				A5D5FD5022B79CC800A2051C /* garbage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB1B9D7958F72F51B9AE041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoGreen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6241DC364008819E25E12B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5D5FD3622B79A0500A2051C /* Sources */ = {
@@ -137,6 +217,7 @@
 			files = (
 				A5D5FD4022B79A0600A2051C /* ViewController.swift in Sources */,
 				A5D5FD3E22B79A0600A2051C /* AppDelegate.swift in Sources */,
+				A553D50F22B7D0570048D5AA /* WorkerDashDoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +361,13 @@
 		};
 		A5D5FD4D22B79A0800A2051C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC340E4D1B00B7E81DEE4710 /* Pods-GoGreen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GSA54HZN69;
 				INFOPLIST_FILE = GoGreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +381,13 @@
 		};
 		A5D5FD4E22B79A0800A2051C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9390D1D96B8DA8EB17FEB22B /* Pods-GoGreen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GSA54HZN69;
 				INFOPLIST_FILE = GoGreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
