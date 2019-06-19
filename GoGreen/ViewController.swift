@@ -18,24 +18,38 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        txtLogInAs.optionArray = ["Sanitation Worker","Municipal Commissioner/Administrator"]
-        txtLogInAs.optionIds = [1,2]
+        txtLogInAs.optionArray = ["Sanitation Worker","Administrator","PC Manager"]
+        txtLogInAs.optionIds = [1,2,3]
         
         txtUserName.delegate = self
         txtPassword.delegate = self
+        
+        print("data is \(String(describing: txtLogInAs.text))")
     
     }
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
+        print("data is \(String(describing: txtLogInAs.text))")
         return true
     }
     
 
     @IBAction func btnLoginPress(_ sender: Any) {
         
-//        WorkerDashDoardViewController
-        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WorkerDashDoardViewController") as? WorkerDashDoardViewController
-        self.navigationController?.pushViewController(vc!, animated: true)
+         var strloginstatus = txtLogInAs.text
+        if strloginstatus == "PC Manager"{
+            print("login as PC Manager")
+            
+            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "TripLogViewController") as? TripLogViewController
+            self.navigationController?.pushViewController(vc!, animated: true)
+
+            
+        }else{
+    //        WorkerDashDoardViewController
+            print("data is \(String(describing: txtLogInAs.text))")
+            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "WorkerDashDoardViewController") as? WorkerDashDoardViewController
+            self.navigationController?.pushViewController(vc!, animated: true)
+        }
     }
     
 }

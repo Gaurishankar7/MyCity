@@ -7,6 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2053C7A022BA8D6700FAA324 /* Difference.png in Resources */ = {isa = PBXBuildFile; fileRef = 2053C79F22BA8D6600FAA324 /* Difference.png */; };
+		20DBDCD122B8D8EC004F0007 /* collection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCD022B8D8EC004F0007 /* collection.jpg */; };
+		20DBDCD322B8DAA3004F0007 /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDCD222B8DAA3004F0007 /* ScanQRViewController.swift */; };
+		20DBDCD522B8F4C2004F0007 /* DetailHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDCD422B8F4C2004F0007 /* DetailHomeViewController.swift */; };
+		20DBDCD722B8F777004F0007 /* recycleC.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCD622B8F777004F0007 /* recycleC.png */; };
+		20DBDCDB22B8FB16004F0007 /* RecyclingM.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCDA22B8FB16004F0007 /* RecyclingM.png */; };
+		20DBDCDD22B8FC92004F0007 /* qr-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCDC22B8FC91004F0007 /* qr-code.png */; };
+		20DBDCDF22B90AF4004F0007 /* recyclingG.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCDE22B90AF4004F0007 /* recyclingG.png */; };
+		20DBDCE322B917EF004F0007 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCE222B917EE004F0007 /* check.png */; };
+		20DBDCE522B91A7A004F0007 /* SelectAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDCE422B91A7A004F0007 /* SelectAreaViewController.swift */; };
+		20DBDCE922B925AB004F0007 /* Homee.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCE822B925AB004F0007 /* Homee.png */; };
+		20DBDCEB22B926E8004F0007 /* TODO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCEA22B926E7004F0007 /* TODO.jpg */; };
+		20DBDCED22B92773004F0007 /* doorlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCEC22B92772004F0007 /* doorlock.jpg */; };
+		20DBDCEF22B927E3004F0007 /* Completed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCEE22B927E3004F0007 /* Completed.jpg */; };
+		20DBDCF322B934DE004F0007 /* Difference.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCF222B934DE004F0007 /* Difference.png */; };
+		20DBDCF522B94702004F0007 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCF422B94702004F0007 /* warning.png */; };
+		20DBDCF922B948D9004F0007 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDCF822B948D9004F0007 /* Constant.swift */; };
+		20DBDCFB22BA3F78004F0007 /* EndOfDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDCFA22BA3F78004F0007 /* EndOfDayViewController.swift */; };
+		20DBDCFD22BA41FF004F0007 /* consolidated-chart.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCFC22BA41FE004F0007 /* consolidated-chart.PNG */; };
+		20DBDCFF22BA49BD004F0007 /* completed.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDCFE22BA49BD004F0007 /* completed.PNG */; };
+		20DBDD0622BA4A0B004F0007 /* partially-segregated.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0022BA4A09004F0007 /* partially-segregated.PNG */; };
+		20DBDD0722BA4A0B004F0007 /* no-waste.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0122BA4A09004F0007 /* no-waste.PNG */; };
+		20DBDD0822BA4A0B004F0007 /* unsegregated.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0222BA4A09004F0007 /* unsegregated.PNG */; };
+		20DBDD0922BA4A0B004F0007 /* pending.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0322BA4A0A004F0007 /* pending.PNG */; };
+		20DBDD0A22BA4A0B004F0007 /* segregated-1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0422BA4A0A004F0007 /* segregated-1.PNG */; };
+		20DBDD0B22BA4A0B004F0007 /* door-lock.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0522BA4A0B004F0007 /* door-lock.PNG */; };
+		20DBDD0D22BA51B4004F0007 /* TripLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDD0C22BA51B4004F0007 /* TripLogViewController.swift */; };
+		20DBDD0F22BA5C19004F0007 /* sanitation-worker report.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 20DBDD0E22BA5C18004F0007 /* sanitation-worker report.PNG */; };
+		20DBDD1122BA6871004F0007 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBDD1022BA6871004F0007 /* ReportViewController.swift */; };
 		A519FA4C22B7F114008443A0 /* qr-code-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A519FA4B22B7F113008443A0 /* qr-code-2.png */; };
 		A553D50F22B7D0570048D5AA /* WorkerDashDoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A553D50E22B7D0570048D5AA /* WorkerDashDoardViewController.swift */; };
 		A5D5FD3E22B79A0600A2051C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D5FD3D22B79A0600A2051C /* AppDelegate.swift */; };
@@ -15,11 +44,39 @@
 		A5D5FD4522B79A0800A2051C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4422B79A0800A2051C /* Assets.xcassets */; };
 		A5D5FD4822B79A0800A2051C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4622B79A0800A2051C /* LaunchScreen.storyboard */; };
 		A5D5FD5022B79CC800A2051C /* garbage.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD4F22B79CC700A2051C /* garbage.png */; };
-		A5D5FD5222B7B1D000A2051C /* collection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D5FD5122B7B1CB00A2051C /* collection.jpg */; };
 		DA3624D477AADD476CB64151 /* Pods_GoGreen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D65A49EB93340A198B814CB /* Pods_GoGreen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2053C79F22BA8D6600FAA324 /* Difference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Difference.png; path = ../../../../Users/gaurishankarvibhute/Desktop/Difference.png; sourceTree = "<group>"; };
+		20DBDCD022B8D8EC004F0007 /* collection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collection.jpg; sourceTree = "<group>"; };
+		20DBDCD222B8DAA3004F0007 /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		20DBDCD422B8F4C2004F0007 /* DetailHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHomeViewController.swift; sourceTree = "<group>"; };
+		20DBDCD622B8F777004F0007 /* recycleC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recycleC.png; sourceTree = "<group>"; };
+		20DBDCDA22B8FB16004F0007 /* RecyclingM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecyclingM.png; sourceTree = "<group>"; };
+		20DBDCDC22B8FC91004F0007 /* qr-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-code.png"; sourceTree = "<group>"; };
+		20DBDCDE22B90AF4004F0007 /* recyclingG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recyclingG.png; sourceTree = "<group>"; };
+		20DBDCE222B917EE004F0007 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		20DBDCE422B91A7A004F0007 /* SelectAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAreaViewController.swift; sourceTree = "<group>"; };
+		20DBDCE822B925AB004F0007 /* Homee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homee.png; sourceTree = "<group>"; };
+		20DBDCEA22B926E7004F0007 /* TODO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TODO.jpg; sourceTree = "<group>"; };
+		20DBDCEC22B92772004F0007 /* doorlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doorlock.jpg; sourceTree = "<group>"; };
+		20DBDCEE22B927E3004F0007 /* Completed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Completed.jpg; sourceTree = "<group>"; };
+		20DBDCF222B934DE004F0007 /* Difference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Difference.png; path = ../../../../Users/gaurishankarvibhute/Desktop/Difference.png; sourceTree = "<group>"; };
+		20DBDCF422B94702004F0007 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		20DBDCF822B948D9004F0007 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		20DBDCFA22BA3F78004F0007 /* EndOfDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndOfDayViewController.swift; sourceTree = "<group>"; };
+		20DBDCFC22BA41FE004F0007 /* consolidated-chart.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "consolidated-chart.PNG"; sourceTree = "<group>"; };
+		20DBDCFE22BA49BD004F0007 /* completed.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = completed.PNG; sourceTree = "<group>"; };
+		20DBDD0022BA4A09004F0007 /* partially-segregated.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partially-segregated.PNG"; sourceTree = "<group>"; };
+		20DBDD0122BA4A09004F0007 /* no-waste.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-waste.PNG"; sourceTree = "<group>"; };
+		20DBDD0222BA4A09004F0007 /* unsegregated.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unsegregated.PNG; sourceTree = "<group>"; };
+		20DBDD0322BA4A0A004F0007 /* pending.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pending.PNG; sourceTree = "<group>"; };
+		20DBDD0422BA4A0A004F0007 /* segregated-1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "segregated-1.PNG"; sourceTree = "<group>"; };
+		20DBDD0522BA4A0B004F0007 /* door-lock.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "door-lock.PNG"; sourceTree = "<group>"; };
+		20DBDD0C22BA51B4004F0007 /* TripLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripLogViewController.swift; sourceTree = "<group>"; };
+		20DBDD0E22BA5C18004F0007 /* sanitation-worker report.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sanitation-worker report.PNG"; sourceTree = "<group>"; };
+		20DBDD1022BA6871004F0007 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		8D65A49EB93340A198B814CB /* Pods_GoGreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoGreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9390D1D96B8DA8EB17FEB22B /* Pods-GoGreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGreen.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen.release.xcconfig"; sourceTree = "<group>"; };
 		A519FA4B22B7F113008443A0 /* qr-code-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-code-2.png"; sourceTree = "<group>"; };
@@ -32,7 +89,6 @@
 		A5D5FD4722B79A0800A2051C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5D5FD4922B79A0800A2051C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5D5FD4F22B79CC700A2051C /* garbage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garbage.png; sourceTree = "<group>"; };
-		A5D5FD5122B7B1CB00A2051C /* collection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collection.jpg; sourceTree = "<group>"; };
 		CC340E4D1B00B7E81DEE4710 /* Pods-GoGreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoGreen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,11 +128,39 @@
 				A5D5FD3D22B79A0600A2051C /* AppDelegate.swift */,
 				A5D5FD3F22B79A0600A2051C /* ViewController.swift */,
 				A553D50E22B7D0570048D5AA /* WorkerDashDoardViewController.swift */,
+				20DBDCD222B8DAA3004F0007 /* ScanQRViewController.swift */,
+				20DBDCD422B8F4C2004F0007 /* DetailHomeViewController.swift */,
+				20DBDCF822B948D9004F0007 /* Constant.swift */,
+				20DBDCE422B91A7A004F0007 /* SelectAreaViewController.swift */,
+				20DBDCFA22BA3F78004F0007 /* EndOfDayViewController.swift */,
+				20DBDD0C22BA51B4004F0007 /* TripLogViewController.swift */,
+				20DBDD1022BA6871004F0007 /* ReportViewController.swift */,
 				A5D5FD4122B79A0600A2051C /* Main.storyboard */,
 				A5D5FD4422B79A0800A2051C /* Assets.xcassets */,
+				20DBDD0E22BA5C18004F0007 /* sanitation-worker report.PNG */,
+				20DBDD0522BA4A0B004F0007 /* door-lock.PNG */,
+				2053C79F22BA8D6600FAA324 /* Difference.png */,
+				20DBDD0122BA4A09004F0007 /* no-waste.PNG */,
+				20DBDD0022BA4A09004F0007 /* partially-segregated.PNG */,
+				20DBDD0322BA4A0A004F0007 /* pending.PNG */,
+				20DBDD0422BA4A0A004F0007 /* segregated-1.PNG */,
+				20DBDD0222BA4A09004F0007 /* unsegregated.PNG */,
+				20DBDCFE22BA49BD004F0007 /* completed.PNG */,
+				20DBDCFC22BA41FE004F0007 /* consolidated-chart.PNG */,
 				A5D5FD4F22B79CC700A2051C /* garbage.png */,
-				A5D5FD5122B7B1CB00A2051C /* collection.jpg */,
+				20DBDCEE22B927E3004F0007 /* Completed.jpg */,
+				20DBDCF422B94702004F0007 /* warning.png */,
+				20DBDCDA22B8FB16004F0007 /* RecyclingM.png */,
+				20DBDCEC22B92772004F0007 /* doorlock.jpg */,
+				20DBDCF222B934DE004F0007 /* Difference.png */,
+				20DBDCDC22B8FC91004F0007 /* qr-code.png */,
+				20DBDCE822B925AB004F0007 /* Homee.png */,
+				20DBDCE222B917EE004F0007 /* check.png */,
+				20DBDCD022B8D8EC004F0007 /* collection.jpg */,
+				20DBDCD622B8F777004F0007 /* recycleC.png */,
+				20DBDCDE22B90AF4004F0007 /* recyclingG.png */,
 				A519FA4B22B7F113008443A0 /* qr-code-2.png */,
+				20DBDCEA22B926E7004F0007 /* TODO.jpg */,
 				A5D5FD4622B79A0800A2051C /* LaunchScreen.storyboard */,
 				A5D5FD4922B79A0800A2051C /* Info.plist */,
 			);
@@ -160,12 +244,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D5FD5222B7B1D000A2051C /* collection.jpg in Resources */,
+				20DBDD0B22BA4A0B004F0007 /* door-lock.PNG in Resources */,
 				A5D5FD4822B79A0800A2051C /* LaunchScreen.storyboard in Resources */,
+				20DBDCEB22B926E8004F0007 /* TODO.jpg in Resources */,
+				20DBDCD722B8F777004F0007 /* recycleC.png in Resources */,
+				20DBDD0722BA4A0B004F0007 /* no-waste.PNG in Resources */,
+				20DBDCED22B92773004F0007 /* doorlock.jpg in Resources */,
 				A519FA4C22B7F114008443A0 /* qr-code-2.png in Resources */,
 				A5D5FD4522B79A0800A2051C /* Assets.xcassets in Resources */,
+				2053C7A022BA8D6700FAA324 /* Difference.png in Resources */,
+				20DBDCF522B94702004F0007 /* warning.png in Resources */,
+				20DBDD0622BA4A0B004F0007 /* partially-segregated.PNG in Resources */,
+				20DBDCE322B917EF004F0007 /* check.png in Resources */,
+				20DBDD0A22BA4A0B004F0007 /* segregated-1.PNG in Resources */,
+				20DBDCFD22BA41FF004F0007 /* consolidated-chart.PNG in Resources */,
+				20DBDCFF22BA49BD004F0007 /* completed.PNG in Resources */,
+				20DBDCDD22B8FC92004F0007 /* qr-code.png in Resources */,
+				20DBDCDB22B8FB16004F0007 /* RecyclingM.png in Resources */,
+				20DBDCF322B934DE004F0007 /* Difference.png in Resources */,
+				20DBDD0F22BA5C19004F0007 /* sanitation-worker report.PNG in Resources */,
+				20DBDCEF22B927E3004F0007 /* Completed.jpg in Resources */,
 				A5D5FD4322B79A0600A2051C /* Main.storyboard in Resources */,
+				20DBDD0822BA4A0B004F0007 /* unsegregated.PNG in Resources */,
+				20DBDD0922BA4A0B004F0007 /* pending.PNG in Resources */,
+				20DBDCE922B925AB004F0007 /* Homee.png in Resources */,
+				20DBDCDF22B90AF4004F0007 /* recyclingG.png in Resources */,
 				A5D5FD5022B79CC800A2051C /* garbage.png in Resources */,
+				20DBDCD122B8D8EC004F0007 /* collection.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +301,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-GoGreen/Pods-GoGreen-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -205,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoGreen/Pods-GoGreen-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoGreen/Pods-GoGreen-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -215,9 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DBDCFB22BA3F78004F0007 /* EndOfDayViewController.swift in Sources */,
+				20DBDCF922B948D9004F0007 /* Constant.swift in Sources */,
+				20DBDCD322B8DAA3004F0007 /* ScanQRViewController.swift in Sources */,
+				20DBDCD522B8F4C2004F0007 /* DetailHomeViewController.swift in Sources */,
 				A5D5FD4022B79A0600A2051C /* ViewController.swift in Sources */,
 				A5D5FD3E22B79A0600A2051C /* AppDelegate.swift in Sources */,
 				A553D50F22B7D0570048D5AA /* WorkerDashDoardViewController.swift in Sources */,
+				20DBDD0D22BA51B4004F0007 /* TripLogViewController.swift in Sources */,
+				20DBDD1122BA6871004F0007 /* ReportViewController.swift in Sources */,
+				20DBDCE522B91A7A004F0007 /* SelectAreaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
